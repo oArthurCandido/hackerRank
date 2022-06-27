@@ -1,4 +1,4 @@
-var scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42];
+var scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42, 2];
 
 function breakingRecords(scores) {
   var scoresLength = scores.length;
@@ -30,11 +30,11 @@ console.log(breakingRecords(scores));
 //   var maxRecord = -1;
 //   for (let i = 0; i <= scoresLength; i++) {
 //     if (scores[i] > maxRecord) {
-//       console.log('max '+scores[i] + '- ' + maxRecord);
+//       console.log('max '+scores[i] + ' > ' + maxRecord);
 //       maxRecord = scores[i];
 //       max++;
 //     } else if (scores[i] < minRecord) {
-//       console.log('min '+scores[i] + '- ' + minRecord);
+//       console.log('min '+scores[i] + ' < ' + minRecord);
 //       minRecord = scores[i];
 //       min++;
 //     }
